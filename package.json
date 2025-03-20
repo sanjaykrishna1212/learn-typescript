@@ -1,0 +1,17 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/index.js",
+    "poststart": "see yaa",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanjayS",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
